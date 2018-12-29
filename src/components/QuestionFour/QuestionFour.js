@@ -40,7 +40,7 @@ class QuestionFour extends Component {
     }
     componentDidMount = () => {
         setInterval(this.countDown, 1000);
-        setInterval(this.submitAnswer, 1000);
+        setTimeout(this.submitAnswer, 1000);
     }
     render() {
         const radioStyle = {
@@ -57,7 +57,7 @@ class QuestionFour extends Component {
                     <Col span={4}></Col>
                     <Col span={16}>
                         {this.props.quiz.slice(3, 4).map(question => {
-                            return <h1 style={{ marginTop: 200 }}>{question.question}</h1>
+                            return <h1 style={{ marginTop: 100 }}>{question.question}</h1>
                         })}
                         <RadioGroup onChange={this.onChange} value={this.state.value}>
                             {this.props.quiz.slice(3, 4).map(option => {

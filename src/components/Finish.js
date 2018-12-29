@@ -30,8 +30,8 @@ class Finish extends Component {
             <React.Fragment>
                 <h1 style={{ textAlign: 'center', fontSize: 40, marginTop: 50 }}>Your Result</h1>
                 <Row>
-                    <Col span={4}></Col>
-                    <Col span={16}>
+                    <Col xs={0} md={4}></Col>
+                    <Col xs={24} md={16}>
                         <Row>
                             <Col style={{ textAlign: "center", fontWeight: '700' }} span={6}>Question No. 1</Col>
                             <Col style={{ textAlign: "center" }} span={6}>Your answer: {this.state.selectOne}</Col>
@@ -57,7 +57,7 @@ class Finish extends Component {
                             <Col style={{ textAlign: "center" }} span={6}>{this.state.correctFour === this.state.selectFour ? (<Icon type="check" />) : (<Icon type="close" />)}</Col>
                         </Row>
                     </Col>
-                        <Col span={4}></Col>
+                        <Col xs={0} md={4}></Col>
                 </Row>
                 <Link to="/"><Button size={'large'} style={{ margin: '0 auto', display: 'block'}} type="primary">Again?</Button></Link>
             </React.Fragment>
