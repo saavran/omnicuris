@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "question": "Which cell feature is responsible for making proteins?",
+        "one": "Lysosomes",
+        "two": "Ribosomes",
+        "three": "Mitochondria",
+        "four": "None"
+    },
+    {
+        "id": "2",
+        "question": "What is the name of the jelly-like substance that is inside the cell?",
+        "one": "Cytoplasm",
+        "two": "Ectoplasm",
+        "three": "Cytokinesis",
+        "four": "None"
+    },
+    {
+        "id": "3",
+        "question": "What cell feature is responsible for powering the cell?",
+        "one": "Cytoplasm",
+        "two": "Endoplasmic reticulum",
+        "three": "Golgi apparatus",
+        "four": "Mitochondria"
+    },
+    {
+        "id": "4",
+        "question": "Where in the cell does DNA replication take place?",
+        "one": "Ribosomes",
+        "two": "Nucleus",
+        "three": "Nucleolus",
+        "four": "None"
+    }
+]
