@@ -1,5 +1,5 @@
-.ant-btn-primary {
-  margin: 20px 20px;
+.ant-btn {
+  margin-right: 20px;
 }
 .ant-row {
   margin: 20px 0px;
@@ -27,4 +27,11 @@
 }
 .rightAnswer svg, .wrongAnswer svg {
   margin-right: 10px;
+}
+.errorMsg{
+  color: red;
+  font-weight: 700;
+  margin-top: 20px;
+  display: table;
+  border-radius: 4px;
 }

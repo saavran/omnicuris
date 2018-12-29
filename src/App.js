@@ -19,6 +19,7 @@ class App extends Component {
 
   componentDidMount() {
     this.fetchData()
+    localStorage.clear();
   }
 
   fetchData = () => {
